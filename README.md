@@ -9,7 +9,12 @@
 
 > *NOTA:* Se genero un Fork del Github original con las modificaciones realizadas en este curso. 😎💜 Github: https://github.com/EveliaCoss/loss-of-resistance
 
-## Material 
+## Galeria de Quarto
+
+- Tipos de formatos que se pueden generar en [Quarto](https://quarto.org/docs/gallery/#articles-reports)
+- Manuscrito en Quarto:  [pagina web](https://cwickham.github.io/manuscript-showcase/) | [github](https://github.com/cwickham/manuscript-showcase) 
+
+## Material de la clase
 
 - Libro de [Quarto](https://eveliacoss.github.io/Reprohack2025_evolution_retovirus/) con informacion.
 - Esquemas en [Canva](https://www.canva.com/design/DAGRE9XWs4o/X_y3xvGxVChIE9LAbgmExw/edit)
@@ -28,8 +33,14 @@ En el Github se encuentra el codigo accesible de las siguientes figuras:
   * Figura 2B. Input: "Resistance_over_Time.xlsx"
   * Figura 3. Input: "Replay.xlsx"
 - [`2_Genomes_data_analysis.R`](https://github.com/EveliaCoss/loss-of-resistance/blob/main/2_Genomes_data_analysis.R): Este script contempla el codigo de las figuras:
-  * Figura 4A. Input:
-  * Figura 4C. Input:
+  * Figura 4A y 4B. Input: “Mutation tables”, “Cost_of_Res.xlsx”
+  * Figura 5A y 5B. Input: “Mutation tables”, “Cost_of_Res.xlsx”
+  
+
+## Mas ejemplos de Manuscritos en Quarto
+
+- A Quarto manuscript example: [pagina web](https://r4phd.sdu.dk/workflow/example_manuscript/example_manuscript.html)
+- Reproducible Manuscripts with Quarto: [Presentacion](https://jjallaire.quarto.pub/reproducible-manuscripts-with-quarto/#/title-slide)
 
 --------------
 Curso hecho con amor 💜
