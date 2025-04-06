@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -57,8 +57,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 
@@ -78,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
         <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://www.facebook.com/profile.php?id=100093337606435" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-facebook"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100093337606435" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-facebook"></i></a>
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introducción</a></li><li class="breadcrumb-item"><a href="./index.html">Sobre nosotras</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -143,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./datos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sobre los datos</span></a>
+ <span class="menu-text">Reproducción de figuras</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -181,6 +180,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">ggplot2</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tema5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Documentación de funciones</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -192,24 +197,6 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tema5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Documentación de funciones</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tema6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Reproducción de figuras</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./retos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Retos y problemas con el código</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Figura1.html" class="sidebar-item-text sidebar-link">
@@ -240,6 +227,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Figura 5</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./retos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Retos y problemas con el código</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -252,8 +245,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#grupo-2-ggplot-y-variantes-genéticas" id="toc-grupo-2-ggplot-y-variantes-genéticas" class="nav-link active" data-scroll-target="#grupo-2-ggplot-y-variantes-genéticas">Grupo 2: ggplot y variantes genéticas</a></li>
-  <li><a href="#integrantes" id="toc-integrantes" class="nav-link" data-scroll-target="#integrantes">Integrantes</a></li>
+  <li><a href="#sobre-el-reprohack" id="toc-sobre-el-reprohack" class="nav-link active" data-scroll-target="#sobre-el-reprohack">Sobre el Reprohack</a></li>
+  <li><a href="#revisoras" id="toc-revisoras" class="nav-link" data-scroll-target="#revisoras">Revisoras</a></li>
   </ul>
 </nav>
     </div>
@@ -278,13 +271,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Esta sesión promueve la reproducibilidad del código, la buena documentación del código y buenas prácticas para generar un mejor futuro en la ciencia con acceso libre a la información. Siendo parte del <a href="https://github.com/R-Ladies-Morelia/Reprohack2024">Reprohack2024</a> de R-Ladies Morelia.</p>
-<section id="grupo-2-ggplot-y-variantes-genéticas" class="level2">
-<h2 class="anchored" data-anchor-id="grupo-2-ggplot-y-variantes-genéticas">Grupo 2: ggplot y variantes genéticas</h2>
+<section id="sobre-el-reprohack" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-el-reprohack">Sobre el Reprohack</h2>
 <p>El artículo seleccionado tiene como idea principal investigar cómo la selección por fagos afecta la <strong>evolución de la resistencia en bacterias</strong>, específicamente en <em>Pseudomonas syringae</em>. Los autores se centran en estudiar si la <strong>sensibilidad a los fagos puede reaparecer</strong> cuando ya no están presentes (es decir, cuando la presión selectiva disminuye). Para ello, rastrean la evolución de la <strong>resistencia a lo largo del tiempo</strong> y descubren que, en la mayoría de los casos, las bacterias no vuelven a ser sensibles. Además, examinan cómo las <strong>mutaciones compensatorias</strong> pueden influir en este proceso.</p>
 <p>Aquí puedes encontrar el artículo completo: <a href="https://academic.oup.com/mbe/article/39/9/msac182/6673247">Historical contingency drives compensatory evolution and rare reversal of phage resistance</a></p>
 </section>
-<section id="integrantes" class="level2">
-<h2 class="anchored" data-anchor-id="integrantes">Integrantes</h2>
+<section id="revisoras" class="level2">
+<h2 class="anchored" data-anchor-id="revisoras">Revisoras</h2>
 <ul>
 <li>Amairani Cancino Bello, Estudiante de doctorado, Cinvestav-IPN <a href="amairani.bello@cinvestav.mx">correo</a></li>
 <li>María José Palma Martínez</li>

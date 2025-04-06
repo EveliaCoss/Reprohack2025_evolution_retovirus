@@ -4,13 +4,13 @@ title: "Sobre nosotras"
 
 Esta sesión promueve la reproducibilidad del código, la buena documentación del código y buenas prácticas para generar un mejor futuro en la ciencia con acceso libre a la información. Siendo parte del [Reprohack2024](https://github.com/R-Ladies-Morelia/Reprohack2024) de R-Ladies Morelia.
 
-## Grupo 2: ggplot y variantes genéticas
+## Sobre el Reprohack
 
 El artículo seleccionado tiene como idea principal investigar cómo la selección por fagos afecta la **evolución de la resistencia en bacterias**, específicamente en *Pseudomonas syringae*. Los autores se centran en estudiar si la **sensibilidad a los fagos puede reaparecer** cuando ya no están presentes (es decir, cuando la presión selectiva disminuye). Para ello, rastrean la evolución de la **resistencia a lo largo del tiempo** y descubren que, en la mayoría de los casos, las bacterias no vuelven a ser sensibles. Además, examinan cómo las **mutaciones compensatorias** pueden influir en este proceso.
 
 Aquí puedes encontrar el artículo completo: [Historical contingency drives compensatory evolution and rare reversal of phage resistance](https://academic.oup.com/mbe/article/39/9/msac182/6673247)
 
-## Integrantes
+## Revisoras
 
 - Amairani Cancino Bello, Estudiante de doctorado, Cinvestav-IPN [correo](amairani.bello@cinvestav.mx)
 - María José Palma Martínez
