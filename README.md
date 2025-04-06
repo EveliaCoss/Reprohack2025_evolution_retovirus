@@ -11,7 +11,7 @@
 
 ## Material 
 
-- Libro de [Quarto](https://r-ladies-morelia.github.io/Reprohack2024/Grupo2/docs/index.html) con informacion.
+- Libro de [Quarto](https://eveliacoss.github.io/Reprohack2025_evolution_retovirus/) con informacion.
 - Esquemas en [Canva](https://www.canva.com/design/DAGRE9XWs4o/X_y3xvGxVChIE9LAbgmExw/edit)
 
 ## Dataset del articulo

@@ -16,7 +16,7 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            url:  https://github.com/R-Ladies-Morelia/Reprohack2024/tree/main/Grupo2
+            url:  https://github.com/EveliaCoss/Reprohack2025_evolution_retovirus
             
   sidebar:
     style: "floating"
